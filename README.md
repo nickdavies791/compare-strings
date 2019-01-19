@@ -1,7 +1,7 @@
 # Compare Strings
 Compare two strings in C to check if they are identical.
 
-# Usage
+## Usage
 ```bash
 $ ./compare
 a: Nick
