@@ -9,7 +9,13 @@ int main(void)
     // Get string b and store pointer to the first char
     char *b = get_string("b: ");
 
-    // Check strings are equal
+    // If a or b are null
+    if (!a || !b)
+    {
+        return 1;
+    }
+
+    // Check strings are same or different
     if (strcmp(a, b) == 0)
     {
         printf("Same\n");
@@ -18,4 +24,6 @@ int main(void)
     {
         printf("Different\n");
     }
+
+    return 0;
 }
